@@ -1,0 +1,101 @@
+body {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.piggy {
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.piggy_head {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: #F9BECA;
+    border-radius: 50%;
+    border: solid 10px #000000;
+    position: absolute;
+}
+
+.piggy_eyes {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 80px;
+    gap: 70px;
+    position: absolute;
+}
+
+
+
+.piggy_left_eye,
+.piggy_right_eye {
+
+    width: 100px;
+    height: 100px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    border: solid 5px #000000;
+
+}
+
+.piggy_left_pupil,
+.piggy_right_pupil {
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.piggy_snout {
+    width: 180px;
+    height: 100px;
+    background-color: #F46E86;
+    border-radius: 45px;
+    border: solid 7px #000000;
+    margin: 220px 0 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piggy_left_nostril,
+.piggy_right_nostril {
+    width: 30px;
+    height: 45px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+.piggy_left_ear,
+.piggy_right_ear {
+    width: 100px;
+    height: 100px;
+    background-color: #F9BECA;
+    border-radius: 65%;
+    border: solid 8px #000000;
+    position: absolute;
+}
+
+.piggy_left_ear {
+    transform: rotate(30deg);
+    margin-left: -10px;
+}
+
+.piggy_right_ear {
+    transform: rotate(-30deg);
+    margin-left: 310px;
+}
