@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>UI Web Design</h1>
+        <h4>Contact Form</h4>
+    </div>
+    <div class="container">
+
+        <div class="content">
+            <section class="contact-info">
+                <h4>Let's discuss on something <span class="highlight">cool</span> together</h4>
+                <p><a href="mailto:ioanadesign@gmail.com"> <img src="assets/gmail.svg"
+                            alt="Email">ioanadesign@gmail.com</a></p>
+                <p><a href="tel:0734567890"><img src="assets/call.svg" alt="Phone"> 0734 567 890</a></p>
+                <p><a href="https://maps.google.com/" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/location-pin-svgrepo-com.svg" alt="Address"> Street
+                        123,Suceava</a></p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/facebook-svgrepo-com.svg" alt="Facebook"></a>
+                    <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/twitter-svgrepo-com.svg" alt="Twitter"></a>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/instagram-1-svgrepo-com.svg" alt="Instagram"></a>
+                </div>
+            </section>
+            <form class="contact-form" method="POST">
+                <h4>I am interested in your services</h4>
+                <div class="interests">
+                    <label><input type="checkbox" name="services" value="ui-ux-design"> UI/UX Design</label>
+                    <label><input type="checkbox" name="services" value="web-design"> Web Design</label>
+                    <label><input type="checkbox" name="services" value="graphic-design"> Graphic design</label>
+                    <label><input type="checkbox" name="services" value="design systems"> Design Systems</label>
+                    <label><input type="checkbox" name="services" value="other"> Other</label>
+                </div>
+                <input type="text" id="name" name="name" required placeholder="Your name">
+                <input type="email" id="email" name="email" required placeholder="Your email">
+                <textarea id="message" name="message" rows="5" required placeholder="Your message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+    <div class="logo">
+        <img src="assets/figma-svgrepo-com.svg" alt="Logo">
+    </div>
+</body>
+
+</html>

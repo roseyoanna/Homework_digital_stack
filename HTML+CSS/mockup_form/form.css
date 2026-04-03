@@ -1,0 +1,183 @@
+body {
+    background-image: url(assets/pinkdark.png);
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 1300px;
+}
+
+.header {
+    max-width: fit-content;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.header h4 {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 300;
+}
+
+.container {
+    background-color: #1c0438;
+    border-radius: 20px;
+    padding: 50px;
+    width: 70%;
+    margin-top: -2%;
+    margin-left: 35%;
+}
+
+.content {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.contact-info h4 {
+    font-size: 2.2rem;
+    line-height: 1.5;
+    margin: 0 0 40px 0;
+}
+
+.contact-info .highlight {
+    color: #ce1a7a;
+}
+
+.contact-info p {
+    margin: 35px 0 10px 0;
+    border-radius: 10px;
+}
+
+.contact-info p a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-info p a:hover {
+    background-color: #ce1a7a;
+    border-radius: 5px;
+    padding: 5px 10px;
+    max-width: fit-content;
+}
+
+.contact-info img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
+
+.social-media {
+    margin-top: 120px;
+    display: flex;
+    gap: 30px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.social-media img:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.contact-form {
+    flex: 1.1;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 15px;
+    color: #333;
+}
+
+.interests h4 {
+    color: black;
+}
+
+.interests {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.interests label {
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.interests input {
+    display: none;
+}
+
+.interests label:has(input:checked) {
+    background-color: #a3156d;
+    color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1.5px solid #434040;
+    background: transparent;
+    outline: none;
+    font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-bottom-color: #a3156d;
+}
+
+button[type="submit"] {
+    background-color: #a3156d;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #ce1a7a;
+    transform: translateY(-2px);
+}
+
+.logo {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+}
+
+.logo img {
+    width: 60px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
