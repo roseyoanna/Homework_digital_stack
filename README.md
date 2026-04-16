@@ -5,3 +5,4 @@
 * [**Coffee Menu**](https://roseyoanna.github.io/Homework_digital_stack/HTML+CSS/menu_coffe//coffee-menu.html)
 * [**Mockup-Form**](https://roseyoanna.github.io/Homework_digital_stack/HTML+CSS/mockup_form//form.html)
 * [**Blog+CSS**](https://roseyoanna.github.io/Homework_digital_stack/HTML+CSS/my_blog_css//index.html)
+* [**semantic-animation-mobile first blog**](https://roseyoanna.github.io/Homework_digital_stack/HTML+CSS/semantic-mobile-first-animation-blog//semantic.html)
